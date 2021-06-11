@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <title>Book List</title>
+</head>
+<style>
+  @media (min-width: 992px)
+   {
+     .container{
+      max-width: 768px;
+     } 
+     a{
+       text-decoration: none;
+     }
+   }
+</style>
+<body>
+<div class="container mx-auto px-5">
+     <h2 class="text-center my-4">Add Book</h2>
+
+       <form class="add-book">
+        <div class="mb-3">
+          <label for="Title" class="form-label">Title</label>
+          <input type="text" class="form-control" id="title">
+        </div>
+
+        <div class="mb-3">
+          <label for="Author" class="form-label">Author</label>
+          <input type="text" class="form-control" id="author">
+        </div>
+
+      <div class="mb-3">
+        <label for="ISBN" class="form-label">ISBN#</label>
+        <input type="text" class="form-control" id="isbn">
+      </div>
+
+      <div>
+        <input type="submit" value="Submit" class="btn btn-secondary"></input>
+      </div>
+
+    </form>
+
+
+    <table class="table table-bordered table-hover text-center my-4">
+      <thead>
+        <tr>
+          <th scope="col">Title</th>
+          <th scope="col">Author</th>
+          <th scope="col">ISBN</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody id="books">
+        <!-- <tr>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr> -->
+      </tbody>
+    </table>
+</div>
+  
+  
+  <script src="app.js"></script>
+</body>
+</html>
