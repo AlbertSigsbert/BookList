@@ -9,7 +9,7 @@ This is a book list application built with Vanilla JS.
 - Validation and success messages
 
 ### Preview
-![Number Guesser Demo](img/Booklist.gif)
+![BookList Demo](img/Booklist.gif)
 
 ### Screenshot
 
