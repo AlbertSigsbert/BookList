@@ -15,12 +15,12 @@ This is a book list application built with Vanilla JS.
 
             This is a desktop View.
 
-<img src="img/number-guesser-desktop.png">
+<img src="img/book-list-desktop.png">
 
              This is for mobile view.
 
 <p align="center">
-   <img src="img/number-guesser-mobile.png" height="500px">
+   <img src="img/book-list-mobile.png" height="500px">
   </p>
   
 ### Links
