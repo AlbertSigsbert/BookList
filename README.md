@@ -25,7 +25,7 @@ This is a book list application built with Vanilla JS.
   
 ### Links
 
-- [Live Site URL](https://albert-number-guesser.netlify.app/)
+- [Live Site URL](https://albert-book-list.netlify.app/)
 
 ### Built with
 
