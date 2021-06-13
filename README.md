@@ -32,7 +32,7 @@ This is a book list application built with Vanilla JS.
 - Semantic HTML5 markup
 - Bootstrap 5
 - Vanilla JS(ES5 Prototypes, ES6 Classes and Local Storage)
-- 
+
 
 ## Author
 
