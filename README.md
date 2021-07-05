@@ -26,6 +26,7 @@ This is a book list application built with Vanilla JS.
 ### Links
 
 - [Live Site URL](https://albert-book-list.netlify.app/)
+- [Youtube](https://youtu.be/jr60ddkaWqY)
 
 ### Built with
 
